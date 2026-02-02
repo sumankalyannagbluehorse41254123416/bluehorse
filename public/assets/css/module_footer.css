@@ -1,0 +1,121 @@
+footer {
+    /* padding: 10px 0; */
+    background-color: var(--clr-white)
+}
+
+.Footer-Wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+
+.Footer-Wrapper .Text {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    color: var(--clr-black)
+}
+
+.Footer-Wrapper .Link {
+    color: var(--clr-blue);
+    font-weight: 400;
+    font-size: 15px
+}
+
+.Footer-Wrapper .Link:is(:hover, :focus) {
+    text-decoration: underline
+}
+
+.Copyright {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 45px
+}
+
+.link2 {
+    cursor: unset
+}
+
+.cDetails {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px
+}
+
+@media (max-width:992px) {
+    .Copyright {
+        flex: 1;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 10px
+    }
+}
+
+.Copyright .Social-Media {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px
+}
+
+.Copyright .Social-Media a {
+    width: 32px;
+    height: 32px;
+    background-color: var(--clr-white);
+    color: var(--clr-blue);
+    font-size: 15px;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 28px;
+    border: solid 1px #ddd
+}
+
+.Copyright .Social-Media a i {
+    vertical-align: middle
+}
+
+.Copyright .Social-Media a:hover {
+    background-color: var(--clr-blue);
+    border-color: var(--clr-blue);
+    color: var(--clr-white)
+}
+
+.Footer-Links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px
+}
+
+@media (max-width:992px) {
+    .Footer-Links {
+        display: none
+    }
+}
+
+.Footer-Links .Divider {
+    font-size: 18rem;
+    color: var(--clr-white)
+}
+
+@media (max-width:768px) {
+    .topQuoteForm {
+        right: -310px !important;
+        position: absolute !important
+    }
+}
+
+@media(max-width:575px) {
+    .topQuoteForm {
+        right: unset !important
+    }
+}
+
+@media(max-width:375px) {
+    .topQuoteForm {
+        top: -15px;
+        padding: 15px 20px !important
+    }
+}

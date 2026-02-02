@@ -1,0 +1,340 @@
+.Nav-Link {
+    color: var(--clr-black)
+}
+
+.Nav-Link:is(:hover, :focus) {
+    border-bottom: 3px solid var(--clr-black);
+    color: var(--clr-black)
+}
+
+.banner_wrap .bg_img {
+    opacity: 1
+}
+
+.service {
+    background-color: var(--clr-Off-white)
+}
+
+.service .sectionTitle {
+    font-family: var(--font-secondary);
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 77px;
+    text-align: left;
+    letter-spacing: 1px
+}
+
+@media (max-width:1200px) {
+    .service .sectionTitle {
+        line-height: 42px
+    }
+}
+
+@media (max-width:768px) {
+    .service .sectionTitle {
+        font-size: 36px;
+        line-height: 36px
+    }
+
+    /* .main_header {
+        padding: 38px 0px !important
+    } */
+
+    .title {
+        font-size: 40px
+    }
+
+    .banner_inner {
+        margin-top: 90px;
+        margin-bottom: 15px
+    }
+}
+
+.service .sectionDetails {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: var(--clr-grey);
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 45px;
+    width: 100%;
+    max-width: 800px;
+    margin-bottom: 45px
+}
+
+@media (max-width:768px) {
+    .service .sectionDetails {
+        font-size: 15px;
+        margin-bottom: 35px
+    }
+}
+
+.service .itemsContainer .row {
+    justify-content: center
+}
+
+.service .itemsContainer .Service-Item {
+    position: relative;
+    background: var(--gradient-transparent);
+    border: 4px solid var(--clr-white);
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: var(--shadow-regular);
+    margin: 0 10px;
+    margin-bottom: 25px
+}
+
+.service .itemsContainer .Service-Item .link {
+    background-color: var(--clr-blue);
+    color: var(--clr-white);
+    padding: 6px 15px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 500;
+    display: inline-block;
+    margin: 30px 20px;
+    margin-top: 0
+}
+
+.service .itemsContainer .Service-Item .link i {
+    vertical-align: sub;
+    font-size: 18px;
+    margin-left: 10px
+}
+
+.service .itemsContainer .Service-Item .link:hover {
+    background-color: var(--clr-blue-dark)
+}
+
+.service .itemsContainer .Logo {
+    opacity: .3
+}
+
+.service .itemsContainer .Service-Item .Logo img {
+    position: absolute;
+    z-index: 2;
+    top: 15px;
+    left: 15px;
+    width: 110px
+}
+
+.service .itemsContainer .Service-Item .Circle {
+    position: absolute;
+    z-index: 1;
+    top: -30px;
+    left: -30px;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%
+}
+
+.service .itemsContainer .Service-Title {
+    position: relative;
+    font-size: var(--fs-medium);
+    font-weight: var(--fw-medium);
+    line-height: var(--lh-medium);
+    padding: 65px 20px 0 20px;
+    display: block
+}
+
+.service .itemsContainer .Service-Title:hover {
+    color: var(--clr-blue-dark)
+}
+
+.service .itemsContainer .Service-Details {
+    position: relative;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: var(--clr-black);
+    margin: 30px 20px;
+    margin-top: 40px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 5;
+    overflow: hidden
+}
+
+@media (max-width:1400px) {
+    .service .itemsContainer .Service-Details {
+        margin: 20px
+    }
+}
+
+@media (max-width:992px) {
+    .service .itemsContainer .Service-Details {
+        font-size: 15px;
+        line-height: 24px
+    }
+
+    /* .main_header {
+        padding: 40px 0px !important
+    } */
+}
+
+.eachService {
+    border: 2px solid #ebebeb;
+    border-radius: 6px;
+    text-align: center;
+    padding: 40px 0;
+    width: 95%;
+    min-height: 480px
+}
+
+.eachService .smallTag {
+    font-size: 16px;
+    color: #0c83d1;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-top: -54px
+}
+
+.eachService .smallTag span {
+    background: #f5f5f5;
+    padding: 0 10px
+}
+
+.esTitle {
+    min-height: 90px
+}
+
+.eachService .esTitle h4 {
+    font-size: 24px;
+    color: #0c83d1;
+    padding: 20px 0 0;
+    color: #242424
+}
+
+.eachService .esTitle::after {
+    content: "";
+    height: 1px;
+    width: 50%;
+    clear: both;
+    display: block;
+    border-bottom: 1px solid #ccc;
+    margin: 20px auto 20px
+}
+
+.eachService .esDesco {
+    padding: 0 20px;
+    text-align: center;
+    color: #767676;
+    min-height: 250px
+}
+
+.eachService .esIcons {
+    background: #e2e2e2;
+    padding: 0;
+    text-align: center;
+    display: flex
+}
+
+.eachService .esIcons img {
+    width: 100%;
+    height: auto
+}
+
+.pro_img {
+    padding-left: 65px
+}
+
+.pro_img2 {
+    padding-top: 18px
+}
+
+.pro_img3 {
+    padding-left: 110px;
+    padding-right: 15px
+}
+
+.pro_img4 {
+    padding-left: 120px;
+    padding-right: 15px
+}
+
+.eachService a.lmore {
+    font-size: 14px;
+    color: #0c83d1;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    border: 1px solid #0c83d1;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none
+}
+
+.eachService a.lmore:hover {
+    background: #0c83d1;
+    color: #fff
+}
+
+.initiativeSection {
+    background: #f7f7f7;
+    padding: 70px 0;
+    margin: 50px auto;
+    width: 100%;
+    clear: both;
+    display: block
+}
+
+.eachInitiative {
+    background: #fff;
+    border-radius: 6px;
+    text-align: center
+}
+
+.eachInitiative .eiLogo {
+    text-align: center;
+    padding: 20px 0
+}
+
+.eachInitiative .eiLogo img {
+    width: 100%;
+    height: auto
+}
+
+.eachInitiative .eiDesco {
+    padding: 20px 30px;
+    height: 200px;
+    text-align: center;
+    color: #242424
+}
+
+.eachInitiative a.kmore {
+    font-size: 14px;
+    background: #0c83d1;
+    color: #fff;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 15px 25px;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 4px 4px 0 0;
+    margin: 7px auto 18px
+}
+
+.eachInitiative a.kmore:hover {
+    background: #242424;
+    color: #fff
+}
+
+@media (max-width:768px) {
+    .eachService {
+        width: unset;
+        margin-bottom: 35px
+    }
+
+    .pro_img {
+        padding-left: 60px
+    }
+
+    .pro_img3 {
+        padding-left: 70px
+    }
+
+    .pro_img4 {
+        padding-left: 85px
+    }
+}

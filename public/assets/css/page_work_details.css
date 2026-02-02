@@ -1,0 +1,238 @@
+.intro_wrap_one .row {
+    align-items: center
+}
+
+.intro_wrap_one figure {
+    width: 150px;
+    height: 150px;
+    margin: 0 auto
+}
+
+.intro_wrap_one figure img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    object-position: center
+}
+
+.sec_para {
+    font-size: 16px;
+    line-height: 26px;
+    color: var(--clr-black);
+    margin: 0;
+    white-space: pre-line
+}
+
+.intro_center p {
+    font-size: 18px
+}
+
+.full_img img {
+    width: 100%
+}
+
+.intro_center .sec_title {
+    margin-bottom: 10px
+}
+
+.intro_center .sec_para {
+    margin-bottom: 20px
+}
+
+.intro_center .half_img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 5px;
+    margin-top: 40px
+}
+
+.intro_center .half_img img {
+    width: 80%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center
+}
+
+@media(max-width:575px) {
+    .intro_center .half_img img {
+        width: 100%;
+    }
+}
+
+.intro_action .btn_action {
+    display: inline-block;
+    border: solid 1px var(--clr-blue);
+    background-color: var(--white);
+    color: var(--clr-blue);
+    padding: 12px 20px;
+    border-radius: 5px;
+    font-size: 15px;
+    line-height: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+    min-width: 200px;
+    margin: 0 10px
+}
+
+.intro_action {
+    padding: 30px var(--pad-page);
+    padding-bottom: 70px
+}
+
+.intro_action .btn_action:hover {
+    background-color: var(--clr-blue);
+    color: var(--clr-white)
+}
+
+.get_in_wrap {
+    padding: 0 var(--pad-page);
+    padding-bottom: 70px;
+    position: relative
+}
+
+.get_in_wrap .get_inner {
+    position: relative;
+    background-color: #f2f6fd;
+    text-align: center;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    border-radius: 5px
+}
+
+.get_in_wrap .get_inner .left_shape {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    object-position: bottom
+}
+
+.get_in_wrap .get_inner .right_shape {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    object-position: bottom
+}
+
+.get_in_wrap .get_inner .get_con {
+    position: relative;
+    padding: 50px
+}
+
+.get_in_wrap .get_inner .get_con h3 {
+    margin-bottom: 10px
+}
+
+.get_in_wrap .get_inner .get_con p {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--clr-black);
+    margin-bottom: 25px
+}
+
+.get_in_wrap .get_inner .get_con a {
+    display: inline-block;
+    border: solid 1px var(--clr-blue);
+    background-color: var(--white);
+    color: var(--clr-blue);
+    padding: 12px 20px;
+    border-radius: 5px;
+    font-size: 15px;
+    line-height: 15px;
+    font-weight: 500
+}
+
+.get_in_wrap .get_inner .get_con a:hover {
+    background-color: var(--clr-blue);
+    color: var(--clr-white)
+}
+
+@media (max-width:1200px) {
+    .intro_action {
+        padding: 30px var(--pad-page);
+        padding-bottom: 60px
+    }
+
+    .get_in_wrap {
+        padding: 0 var(--pad-page);
+        padding-bottom: 60px
+    }
+}
+
+@media (max-width:992px) {
+    .get_in_wrap .get_inner .left_shape {
+        display: none
+    }
+
+    .get_in_wrap .get_inner .right_shape {
+        display: none
+    }
+
+    .intro_action {
+        padding: 30px var(--pad-page);
+        padding-bottom: 40px
+    }
+
+    .get_in_wrap {
+        padding: 0 var(--pad-page);
+        padding-bottom: 40px
+    }
+}
+
+@media (max-width:768px) {
+    .intro_wrap_one figure {
+        margin-bottom: 15px
+    }
+
+    .sec_para {
+        font-size: 18px;
+        line-height: 24px;
+        text-align: center
+    }
+
+    .intro_action .btn_action {
+        padding: 12px 15px;
+        font-size: 14px;
+        line-height: 14px;
+        margin: 0 5px;
+        margin-bottom: 15px
+    }
+}
+
+.banner_wrap .banner_inner h1 {
+    font-size: 50px;
+    line-height: 56px
+}
+
+@media (max-width:992px) {
+    .banner_wrap .banner_inner h1 {
+        font-size: 40px;
+        line-height: 52px
+    }
+
+    .banner_wrap .banner_inner p {
+        font-size: 15px;
+        line-height: 25px;
+        padding: 0
+    }
+}
+
+@media (max-width:575px) {
+    .banner_wrap .banner_inner h1 {
+        font-size: 36px;
+        line-height: 44px
+    }
+
+    .banner_wrap .banner_inner p {
+        font-size: 14px;
+        line-height: 25px
+    }
+}

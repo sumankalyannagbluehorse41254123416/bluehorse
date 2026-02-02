@@ -1,6 +1,27 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import Header from "@/component/Header";
+// import Footer from "@/component/Footer";
+import "../public/assets/css/utility.css";
+import "../public/assets/css/styleone.css";
+import "../public/assets/css/stylenew.css";
+import "../public/assets/css/style.css";
+import "../public/assets/css/style-test.css";
+import "../public/assets/css/style -test.css";
+import "../public/assets/css/remixicon.min.css";
+import "../public/assets/css/remixicon.css";
+import "../public/assets/css/page_work_details.css";
+import "../public/assets/css/page_work.css";
+import "../public/assets/css/page_service_sumanbackup_0302.css";
+import "../public/assets/css/page_about_old.css";
+import "../public/assets/css/page_about.css";
+import "../public/assets/css/module_header.css";
+import "../public/assets/css/module_footer.css";
+import "../public/assets/css/module_common.css";
+import "../public/assets/css/bootstrap.css";
+import "../public/assets/css/bootstrap-test.min.css";
+import "../public/assets/css/404_style.css";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -25,7 +46,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
+        <Header />
         {children}
+        {/* <Footer /> */}
       </body>
     </html>
   );
