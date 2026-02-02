@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Header from "@/component/Header";
-// import Footer from "@/component/Footer";
+import Footer from "@/component/Footer";
 import "../public/assets/css/utility.css";
 import "../public/assets/css/styleone.css";
 import "../public/assets/css/stylenew.css";
@@ -22,6 +22,9 @@ import "../public/assets/css/module_common.css";
 import "../public/assets/css/bootstrap.css";
 import "../public/assets/css/bootstrap-test.min.css";
 import "../public/assets/css/404_style.css";
+import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/effect-fade";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -48,7 +51,7 @@ export default function RootLayout({
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
         <Header />
         {children}
-        {/* <Footer /> */}
+        <Footer />
       </body>
     </html>
   );
