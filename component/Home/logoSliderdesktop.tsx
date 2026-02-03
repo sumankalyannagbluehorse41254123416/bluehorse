@@ -51,7 +51,7 @@ const logos = [
     img: "https://www.bluehorse.in/images/woweats_logo1.png",
   },
 ];
-
+// kjdsji
 export default function LogoSwiper() {
   return (
     <Swiper
